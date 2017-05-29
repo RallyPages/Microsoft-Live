@@ -16,7 +16,7 @@ class Provider extends AbstractProvider implements ProviderInterface
     /**
      * {@inheritdoc}
      */
-    protected $scopes = ['openid profile offline_access User.Read Mail.Read'];
+    protected $scopes = ['openid profile offline_access User.Read Contacts.Read People.Read'];
 
     /**
      * {@inheritdoc}
