@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialiteProviders\Live;
+namespace RallyApp\Live;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;
 
