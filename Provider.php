@@ -16,12 +16,12 @@ class Provider extends AbstractProvider implements ProviderInterface
     /**
      * {@inheritdoc}
      */
-    protected $scopes = ['User.Read User.ReadBasic.All'];
+    protected $scopes = ['openid profile offline_access User.Read Mail.Read'];
 
     /**
      * {@inheritdoc}
      */
-    protected $scopeSeparator = ' ';
+    protected $scopeSeparator = '+';
 
     /**
      * {@inheritdoc}
